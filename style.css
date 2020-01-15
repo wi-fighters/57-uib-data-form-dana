@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 0.9rem;
+    color: white;
+    background-color: rgba(46, 46, 56, 0.911);
+    padding: 0.8rem;
+    margin-bottom: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+form {
+    margin: 1rem;
+}
+
+fieldset {
+    display: flex;
+    flex-basis: 49%;
+    padding: 0.8rem;
+}
+
+.products {
+    width: 49%;
+}
+
+legend {
+    margin:0.3rem;
+    padding: 0 0.5rem;
+    color: rgb(94, 9, 173);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.4rem;
+    font-size: 0.8rem;
+}
+
+input {
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+}
+
+textarea {
+    margin: 0.5rem 0;
+}
+
+.radio-container {
+    display: flex;
+    flex-direction: row;
+    font-weight: 100;
+    margin: 0.3rem 0;
+}
+
+.radio-container>input:first-of-type {
+    margin: 0 0.5rem 0 0;
+}
+
+.radio-container>input:last-of-type {
+    margin: 0 0.5rem;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.checkbox label {
+    font-weight: 100;
+}
+
+#htmlcss, #javascript, #mongodb {
+    margin-right: 0.3rem;
+}
+
+button {
+    background-color: rgb(23, 189, 1);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.6rem;
+    margin-top: 1rem;
+}

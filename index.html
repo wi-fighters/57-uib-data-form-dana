@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <h1>Forms</h1>
-        <form action="#">
-            <section class="container">
-                <fieldset class="personal">
+    <h1>Forms</h1>
+    <form action="#">
+        <section class="wrapper">
+            <span class="personal">
+                <fieldset>
                     <legend>Personal Data</legend>
                     <label for="first">First Name:
                         <input type="text" id="first" name="first">
@@ -41,52 +41,52 @@
                         <textarea name="comments" rows="7" placeholder="Tell us more"></textarea>
                     </label>
                 </fieldset>
+            </span>
 
-                <span class="products">
-                    <fieldset>
-                        <legend>Products</legend>
-                        <label for="design">Web Design:
-                            <div class="radio-container">
-                                <input type="radio" name="design" value="individual" checked>Individual
-                                <input type="radio" name="design" value="template" checked>Template
-                            </div>
-                        </label>
-                        <label for="develop">Web Development:
-                            <div class="checkbox">
-                                <input type="checkbox" name="develop" value="html" id="htmlcss">
-                                <label for="htmlcss">HTML & CSS</label>
-                            </div>
-                            <div class="checkbox">
-                                <input type="checkbox" name="develop" value="js" id="javascript">
-                                <label for="javascript">JavaScript</label>
-                            </div>
-                            <div class="checkbox">
-                                <input type="checkbox" name="develop" value="mongo" id="mongodb">
-                                <label for="mongodb">MongoDB</label>
-                            </div>
-                        </label>
-                        <label for="p-start">Project Start:
-                            <input type="date" id="p-start" name="p-start">
-                        </label>
-                        <label for="p-end">Project End:
-                            <input type="date" id="p-end" name="p-end">
-                        </label>
-                        <label for="category">Category:
-                            <select name="category">
-                                <option value="personal">Personal</option>
-                                <option value="business">Business</option>
-                                <option value="gaming">Gaming</option>
-                                <option value="social">Social</option>
-                            </select>
-                        </label>
-                    </fieldset>
-                </span>
-            </section>
-            <div class="submit">
-                <button>Order our services</button>
-            </div>
-        </form>
-    </div>
+            <span class="products">
+                <fieldset>
+                    <legend>Products</legend>
+                    <label for="design">Web Design:
+                        <div class="radio-container">
+                            <input type="radio" name="design" value="individual" checked>Individual
+                            <input type="radio" name="design" value="template" checked>Template
+                        </div>
+                    </label>
+                    <label for="develop">Web Development:
+                        <div class="checkbox">
+                            <input type="checkbox" name="develop" value="html" id="htmlcss">
+                            <label for="htmlcss">HTML & CSS</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="develop" value="js" id="javascript">
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                        <div class="checkbox">
+                            <input type="checkbox" name="develop" value="mongo" id="mongodb">
+                            <label for="mongodb">MongoDB</label>
+                        </div>
+                    </label>
+                    <label for="p-start">Project Start:
+                        <input type="date" id="p-start" name="p-start">
+                    </label>
+                    <label for="p-end">Project End:
+                        <input type="date" id="p-end" name="p-end">
+                    </label>
+                    <label for="category">Category:
+                        <select name="category">
+                            <option value="personal">Personal</option>
+                            <option value="business">Business</option>
+                            <option value="gaming">Gaming</option>
+                            <option value="social">Social</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <div class="submit">
+                    <button>Order our services</button>
+                </div>
+            </span>
+        </section>
+    </form>
 </body>
 
 </html>

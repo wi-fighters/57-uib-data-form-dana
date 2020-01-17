@@ -17,22 +17,26 @@ h1 {
     margin-bottom: 2rem;
 }
 
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
 form {
     margin: 1rem;
 }
 
 fieldset {
-    display: flex;
-    flex-basis: 49%;
     padding: 0.8rem;
 }
 
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.personal {
+    width: 49%;
+}
+
 .products {
+    display: flex;
+    flex-direction: column;
     width: 49%;
 }
 
@@ -87,6 +91,7 @@ textarea {
 }
 
 button {
+    flex: 0 1 100%;
     background-color: rgb(23, 189, 1);
     color: white;
     border: none;

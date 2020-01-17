@@ -90,12 +90,13 @@ textarea {
     margin-right: 0.3rem;
 }
 
-button {
-    flex: 0 1 100%;
+#submit {
+    width: 22%;
     background-color: rgb(23, 189, 1);
     color: white;
     border: none;
     border-radius: 0.4rem;
     padding: 0.6rem;
     margin-top: 1rem;
+    cursor: pointer;
 }
